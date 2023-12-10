@@ -22,16 +22,13 @@ This Python application provides a Command-Line user interface (CLI) for calcula
    ```bash
     python hashCalCLI.py [file_path] [--save] [--compare]
     ```
-### Command-Line Interface
-#### To use the tool, run the following command in your terminal:
-   ```bash
-    python hashCalCLI.py [file_path] [--save] [--compare]
-    ```
- - file_path: Path to the file for which you want to calculate the hash.
- - --save: Optional flag to save the hash to a file.
- - --compare: Optional flag to compare the hash with stored hashes.
+## Options
 
-### Command-Line Interface
+- **file_path**: Path to the file for hashing.
+- **--save**: Optional flag to save the hash to a file..
+- **--compare**: Optional flag to compare the hash with stored hashes.
+
+### Examples
 
 - Calculate the hash of a file:
    ```bash
